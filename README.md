@@ -16,7 +16,7 @@ An autonomous, ultra-lightweight kiosk media application built with **Python 3.1
 * **Low-Level Key Invalidation:** Intercepts system modifier keys (`Alt`, `Tab`, `Win`, `F1-F12`) at the OS level to maintain an uninterrupted kiosk state.
 * **Automated Audio Leveling:** Dynamically configures the Windows master mixer to exactly 10% volume upon execution via Pycaw.
 * **Zero-Admin Architecture:** Executes seamlessly within standard user privileges (no UAC prompt required on stock Windows configurations).
-* **Hardcoded Self-Destruct:** Completely unhooks all system intercepts and terminates cleanly after exactly 10 seconds.
+* **Hardcoded Self-Destruct:** Completely unhooks all system intercepts and terminates cleanly after exactly 178 seconds.
 
 ### 🚀 Technical Requirements
 * **OS:** Windows 10 / 11 (64-bit)
@@ -47,7 +47,7 @@ python -m nuitka --onefile --onefile-no-compression --windows-console-mode=disab
 * **Низкоуровневая блокировка клавиш:** Перехватывает системные клавиши-модификаторы (`Alt`, `Tab`, `Win`, ряд `F1-F12`) на уровне операционной системы для защиты режима киоска.
 * **Автоматическое управление звуком:** При запуске выставляет главный микшер Windows ровно на 10% громкости с помощью библиотеки Pycaw.
 * **Запуск без прав администратора:** Работает в стандартном пользовательском контексте безопасности (UAC-окно не вызывается).
-* **Таймер самоликвидации:** Скрипт полностью снимает все перехваты клавиатуры и завершает процесс ровно через 10 секунд.
+* **Таймер самоликвидации:** Скрипт полностью снимает все перехваты клавиатуры и завершает процесс ровно через 178 секунд.
 
 ### 🚀 Системные требования
 * **ОС:** Windows 10 / 11 (64-bit)
