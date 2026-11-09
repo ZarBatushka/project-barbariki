@@ -1,0 +1,17 @@
+# Nuitka build artifacts
+*.build/
+*.dist/
+*.onefile-build/
+nuitka-crash-report.xml
+
+# UPX binary
+upx.exe
+*.zip
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Compiled executables
+*.exe
